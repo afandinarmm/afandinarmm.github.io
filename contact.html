@@ -1,0 +1,93 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Narmin Afandizada</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital,wght@0,500;1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo6.jpg"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="aboutme.html">ABOUT ME</a></li>
+                        <li><a href="https://github.com/afandinarmm">GITHUB ACCOUNT</a></li>
+                        <li><a href="#">GITHUB PAGE</a></li>
+                        <li><a href="businesscard.html">BUSINESS CARD</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+            </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+            <div class="text-box">
+                <h1>WELCOME TO MY WEBSITE!</h1>
+                    <p>I am Narmin Afandizada <br> and <br> this is my first website project</p>
+            </div>
+    </section>
+
+<!--contact-->
+
+<section class="contact-me">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+994 000 00 00</h5>
+                            <p>Monday to Saturday 10 Am to 6 Pm</p>
+                    </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>afandinarm@gmail.com</h5>
+                            <p>Email me your query</p>
+                    </span>
+            </div>
+        </div>
+    <div class="contact-col">
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <input type="email" name="email" placeholder="Enter email address" required>
+        <input type="text" name="subject" placeholder="Enter your subject" required>
+        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+        <button type="submit">Send message</button>
+    </div>
+    </div>
+</section>
+
+<!--footer-->
+
+<section class="footer">
+    <h4>Contact Me</h4>
+        <div class="icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+</section>   
+  
+<!--toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
