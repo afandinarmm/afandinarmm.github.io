@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-  }
+}
 
 body{
     display: flex;
@@ -41,8 +41,17 @@ header i{
     margin-left: 8px;
 }
 
+.main.active header i{
+    font-size: 30px;
+    margin-left: 5px;
+}
+
 .main .input_sec{
     margin: 20px 25px 30px;
+}
+
+.main.active .input_sec{
+    display: none;
 }
 
 .input_sec .info{
@@ -54,3 +63,18 @@ header i{
     border-radius: 7px;
     margin-bottom: 15px;
 }
+
+.info.error{
+    display: block;
+    color: #721c24;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
+
+.info.pending{
+    display: block;
+    color: #0c5460;
+    background: #d1ecf1;
+    border: 1px solid #bee5eb;
+}
+
