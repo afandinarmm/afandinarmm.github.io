@@ -7,37 +7,58 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     </head>
-    <body>
-        <div class="main">
-            <header><i class='bx bx-left-arrow-alt'></i>Weather Teller</header>
-            <section class="input_sec">
-                <p class="info"></p>
-                <input type="text" placeholder="Enter city name" spellcheck="false" required>
-                <div class="sorter"></div>
+<body>
+    <div class="main">
+        <header><i class='bx bx-left-arrow-alt'></i>Weather Teller</header>
+        <section class="input_sec">
+            <p class="info"></p>
+            <input type="text" placeholder="Enter city name" spellcheck="false" required>
+            <div class="sorter"></div>
             
             <button>Get Device Location</button>
 
             <div class="sorter"></div>
 
-            </section>
+        </section>
 
-            <section class="weather_sec">
-                <img src="#" alt="Weather Icon"> 
-                <div class="temp">
-                    <span class="numb">_</span>
-                    <span class="deg">°</span>C
+        <section class="weather_sec">
+            <img src="#" alt="Weather Icon"> 
+            <div class="temp">
+                <span class="numb">_</span>
+                <span class="deg">°</span>C
+            </div>
+            <div class="weather">_ _</div>
+            <div class="location">
+                <i class="bx bx-map"></i>
+                <span>_, _</span>
+            </div>
+            <div class="bottom">
+                <div class="column feels">
+                    <i class="bx bxs-thermometer"></i>
+                    <div class="details">
+                        <div class="temp">
+                            <span class="numb-2">_</span>
+                            <span class="deg">°</span>C
+                        </div>
+                        <p>Feels Like</p>
+
+                        <div class="temp">
+                            <span class="numb-3">_</span>
+                            <span class="deg">°</span>C
+                        </div>
+                        <p>Max Temp</p>
+
+                        <div class="temp">
+                            <span class="numb-4">_</span>
+                            <span class="deg">°</span>C
+                        </div>
+                        <p>Min Temp</p>
+                    </div>
                 </div>
-                <div class="weather">_ _</div>
-                <div class="location">
-                    <i class="bx bx-map"></i>
-                    <span>_, _</span>
-                </div>
 
-            </section>
-
-
-
-
-        </div>
-    </body>
+                
+            </div>
+        </section>
+    </div>
+</body>
 </html>
